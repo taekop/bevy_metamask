@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "bevy_metamask",
+    "bevy_metamask_example",
+]
+resolver = "2"

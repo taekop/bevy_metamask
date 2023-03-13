@@ -1,0 +1,21 @@
+[package]
+name = "bevy_metamask"
+version = "0.1.0"
+authors = ["taekop <taekop@naver.com>"]
+edition = "2021"
+description = "Bevy plugin that supports metamask in browser"
+repository = "https://github.com/taekop/bevy_metamask"
+license = "MIT OR Apache-2.0"
+keywords = ["gamedev", "wasm", "bevy"]
+categories = ["game-development", "wasm"]
+
+[dependencies]
+bevy = "0.9.0"
+futures = "0.3.27"
+js-sys = "0.3.61"
+serde = "1.0.152"
+serde-wasm-bindgen = "0.4.5"
+serde_json = "1.0.94"
+wasm-bindgen = "0.2.84"
+wasm-bindgen-futures = "0.4.34"
+web-sys = { version = "0.3.61", features = ["Window"] }
