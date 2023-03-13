@@ -8,6 +8,7 @@ repository = "https://github.com/taekop/bevy_metamask"
 license = "MIT OR Apache-2.0"
 keywords = ["gamedev", "wasm", "bevy"]
 categories = ["game-development", "wasm"]
+readme = "README.md"
 
 [dependencies]
 bevy = "0.9.0"
