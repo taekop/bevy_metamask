@@ -1,5 +1,9 @@
 # Bevy Metamask
 
+[![crates.io](https://img.shields.io/crates/v/bevy_metamask.svg)](https://crates.io/crates/bevy_metamask)
+[![docs](https://docs.rs/bevy_metamask/badge.svg)](https://docs.rs/bevy_metamask)
+[![MIT/Apache 2.0](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)](https://github.com/bevyengine/bevy#license)
+
 Bevy meets Metamask! This plugin is only supported in wasm target. The core concept of the plugin is a communication via a request event and the corresponding response event. Whenever you send a request event, `IoTaskPool` handles the request and then send the response event.
 
 ## Getting Started
